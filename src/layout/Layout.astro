@@ -1,0 +1,20 @@
+---
+import Navbar from "../components/Navbar.astro";
+import "@fontsource-variable/onest";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body class="relative h-full w-full p-2 flex flex-col text-white bg-black">
+    <Navbar />
+    <slot />
+   
+  </body>
+</html>

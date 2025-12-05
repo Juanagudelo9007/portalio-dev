@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@fontsource-variable/onest";
+@import '@fontsource-variable/oswald';
+
+
+  body {
+    font-family: "Oswald Variable", sans-serif;
+  }
