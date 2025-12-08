@@ -29,40 +29,44 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center" id="contact">
-      <div className="place-self-end" id="contact">
-        <form
-          action=""
-          className="bg-[#020236] md:bg-[#010133] backdrop-blur-lg flex flex-col justify-center p-4 gap-2 h-80 w-56  md:w-72 text-white/70 border border-white/40 rounded-sm md:border-none hover:shadow-[1px_5px_15px_1px_rgba(255,255,255,0.23)]
- transition-all duration-300 hover:text-white"
-          onSubmit={handleForm}
-          ref={formRef}
-        >
-          <h1 className="text-center">Get In Touch!</h1>
-          <label htmlFor="">Name</label>
-          <input
-            type="text"
-            name="name"
-            required
-            className="capitalize outline-none bg-white/40 rounded-sm indent-2 text-sm p-0.5"
-          />
-          <label htmlFor="">Email</label>
-          <input
-            type="email"
-            name="email"
-            required
-            className="outline-none bg-white/40 rounded-sm indent-2 text-sm p-0.5"
-          />
-          <label htmlFor="">Message</label>
-          <textarea
-            name="message"
-            className="w-full h-28 outline-none resize-none bg-white/40 rounded-sm indent-2 text-sm"
-            required
-          ></textarea>
-          <button className="bg-red-600 mt-1 active:scale-[0.7] active:border active:bg-red-800 transition-all duration-300 rounded-sm text-sm">
-            Send
-          </button>
-        </form>
+    <div
+      className="relative w-full h-full flex flex-col justify-center items-center"
+      id="contact"
+    >
+      <div className=" place-self-end" id="contact">
+        <div className="relative max-w-sm  p-0.5 rounded-lg overflow-hidden bg-conic/[from_90deg] from-black via-blue-800 to-black ">
+          <form
+            action=""
+            className="relative bg-black/70 backdrop-blur-lg flex flex-col justify-center p-4 gap-2 h-80 w-56  md:w-72 rounded-lg  "
+            onSubmit={handleForm}
+            ref={formRef}
+          >
+            <h1 className="text-center">Get In Touch!</h1>
+            <label htmlFor="">Name</label>
+            <input
+              type="text"
+              name="name"
+              required
+              className="capitalize outline-none bg-white/20 rounded-sm indent-2 text-xs p-0.5"
+            />
+            <label htmlFor="">Email</label>
+            <input
+              type="email"
+              name="email"
+              required
+              className="outline-none bg-white/20 rounded-sm indent-2 text-xs p-0.5"
+            />
+            <label htmlFor="">Message</label>
+            <textarea
+              name="message"
+              className="w-full h-28 outline-none resize-none bg-white/20 rounded-sm indent-2 text-xs"
+              required
+            ></textarea>
+            <button className="bg-white/60 mt-1 active:scale-[0.7] active:border active:bg-white/30 transition-all duration-300 rounded-sm text-sm hover:bg-white/30 cursor-pointer">
+              Send
+            </button>
+          </form>
+        </div>
       </div>
       {/* Error Message  */}
       {error && !closeError && (
