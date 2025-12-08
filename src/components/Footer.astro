@@ -1,5 +1,21 @@
 ---
-
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { BiLogoGmail } from "react-icons/bi";
 ---
 
-<div class="text-2xl text-white text-center">here should go the footer icons</div>
+<footer
+  class="w-full flex flex-col bg-[#191928] mt-4 justify-center items-center"
+>
+  <div class="w-full h-12 bg- flex justify-center items-center gap-1">
+    <a href="https://github.com/Juanagudelo9007" target="_blank"
+      ><FaGithub size={18} /><a>
+        <a
+          href="https://www.linkedin.com/in/juan-agudelo-294b40232/"
+          target="_blank"><CiLinkedin size={18} /></a
+        >
+        <a href="#contact"><BiLogoGmail size={18} /></a>
+      </a>
+    </a>
+  </div>
+</footer>
