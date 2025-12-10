@@ -40,28 +40,36 @@ const Contact = () => {
           onSubmit={handleForm}
           ref={formRef}
         >
-          <h1 className="text-center">Get In Touch!</h1>
-          <label htmlFor="">Name</label>
+          <h1 className="text-center text-[#959595] font-bold tracking-wider">
+            Get In Touch!
+          </h1>
+          <label htmlFor="" className="text-[#959595] font-bold">
+            Name
+          </label>
           <input
             type="text"
             name="name"
             required
             className="capitalize outline-none bg-white/20 rounded-sm indent-2 text-xs p-0.5"
           />
-          <label htmlFor="">Email</label>
+          <label htmlFor="" className="text-[#959595] font-bold">
+            Email
+          </label>
           <input
             type="email"
             name="email"
             required
             className="outline-none bg-white/20 rounded-sm indent-2 text-xs p-0.5"
           />
-          <label htmlFor="">Message</label>
+          <label htmlFor="" className="text-[#959595] font-bold">
+            Message
+          </label>
           <textarea
             name="message"
             className="w-full h-28 outline-none resize-none bg-white/20 rounded-sm indent-2 text-xs"
             required
           ></textarea>
-          <button className="bg-white/60 mt-1 active:scale-[0.7] active:border active:bg-white/30 transition-all duration-300 rounded-sm text-sm hover:bg-white/30 cursor-pointer">
+          <button className="text-[#959595]  bg-transparent border border-transparent mt-1 active:scale-[0.7] active:border  transition-all duration-300 rounded-sm text-sm hover:bg-black hover:border hover:border-white hover:text-white cursor-pointer font-bold">
             Send
           </button>
         </form>

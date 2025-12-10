@@ -11,10 +11,16 @@ import { FaLink } from "react-icons/fa6";
 
 <div class="relative w-full h-full p-4" id="projects">
   <div
-    class="flex flex-col justify-center items-center w-full h-full gap-6 text-white p-4"
+    class="flex flex-col justify-center items-center w-full h-full gap-2 md:gap-6 text-white p-4"
     id="container"
   >
-    <h1 class="text-xl md:text-2xl font-bold tracking-wide">My Projects</h1>
+    <div class="place-content-start md:w-[55%] w-full">
+      <h1
+        class="text-xl md:text-2xl font-light underline underline-offset-4 md:no-underline text-[#C2C2C2] tracking-wide"
+      >
+        Projects
+      </h1>
+    </div>
     <div
       class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2"
       id="card-1"
@@ -35,7 +41,7 @@ import { FaLink } from "react-icons/fa6";
         >
           Chat App
         </h1>
-        <p class="text-xs md:text-sm">
+        <p class="text-xs md:text-sm text-[#000000] font-bold">
           Real-time chat application supporting authentication, live messaging,
           adding users, and deleting users.
         </p>
@@ -80,7 +86,7 @@ import { FaLink } from "react-icons/fa6";
         >
           Netflix Clone
         </h1>
-        <p class="text-xs md:text-sm">
+        <p class="text-xs md:text-sm text-[#000000] font-bold">
           Netflix clone with authentication. Users have their own sections to
           add shows and movies to “watch later” and “favorites.” All user
           information persists across reloads.
@@ -125,7 +131,7 @@ import { FaLink } from "react-icons/fa6";
         >
           Lading Burger Place
         </h1>
-        <p class="text-xs md:text-sm text-white">
+        <p class="text-xs md:text-sm text-[#000000] font-bold">
           Landing page for a burger store where users can view the menu and fill
           out a form to place an order.
         </p>

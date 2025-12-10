@@ -7,17 +7,19 @@ const Hero = () => {
   return (
     <div className=" h-full mt-14 p-4" id="about">
       <div className="flex  flex-col items-center  justify-center text-white p-4 md:p-6">
-        <div className="flex gap-4 items-center mb-5">
-          <img
-            src={"/public/me.jpeg"}
-            alt=""
-            className="h-10 w-10 rounded-full"
-          />
-          <h1 className="title text-2xl md:text-3xl font-bold">
-            <span className="text-blue-500/70">Hello,</span> My Name is Juan
-          </h1>
+        <div className="relative flex flex-col  items-center mb-5">
+          <span className="absolute text-[#F0F0F0] text-[9px] md:text-[10px] -top-4 md:right-0 md:text-[#f6f3f3] font-light tracking-wider underline cursor-pointer hover:scale-125 md:no-underline hover:text-white hover:font-bold transition-all duration-300 underline-offset-2 ">
+            Juan Agudelo
+          </span>
+          <h2 className="text-2xl md:text-3xl tracking-wider font-bold text-[#D9D9D9]">
+            <span className="mr-2">A</span> Junior web-Developer
+          </h2>
         </div>
-        <p className="parr text-justify md:text-center text-sm  md:text-[17px] leading-relaxed  ">
+        <div className="w-full text-end">
+          <span className="capitalize text-[8px]">start</span>
+        </div>
+
+        <p className="parr text-justify md:text-center text-sm  md:text-[17px] leading-relaxed  text-[#C2C2C2]">
           Self-taught web developer creating modern websites while expanding my
           skills. I’ve worked with HTML, CSS, JavaScript, React, tailwindcss and
           Firebase for auth, database, and storage, consulting documentation as
@@ -48,11 +50,12 @@ const Hero = () => {
           <a
             href="https://github.com/Juanagudelo9007?tab=repositories"
             target="_blank"
-            className="bg-white/80 text-black/70 px-1 py-0.5 text-xs rounded-md cursor-pointer border transition-all duration-500 hover:bg-black hover:text-white hover:border-white "
+            className="bg-white/80 text-black/70 px-1 py-0.5 text-xs rounded-md cursor-pointer border transition-all duration-500 hover:bg-black hover:text-white hover:border-white font-bold "
           >
             My Projects
           </a>
         </div>
+
         <div
           className="flex justify-center items-center gap-2 mt-4"
           id="tech-stack"
