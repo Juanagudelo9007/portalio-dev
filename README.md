@@ -1,43 +1,13 @@
-# Astro Starter Kit: Minimal
+👨🏻‍💻 Juan Agudelo – Portfolio
 
-```sh
-npm create astro@latest -- --template minimal
-```
+💻 Self-taught web developer, solidifying front-end fundamentals and aiming to become a full-stack developer. Currently learning Astro and advancing in React and JavaScript through React Key Concepts and You Don’t Know JS. Also studying Modern Fullstack React App and Tailwind Handbook to expand full-stack skills.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Skills: HTML, CSS, JavaScript, React, TailwindCSS, Firebase (manual Auth, Database CRUD, basic Storage)
 
-## 🚀 Project Structure
+Projects: Chat App, Netflix Clone, React Landing Page – all showcasing real-time features, user management, and responsive design.
 
-Inside of your Astro project, you'll see the following folders and files:
+Currently Learning: GSAP, Astro
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contact: LinkedIn - https://www.linkedin.com/in/juan-agudelo-294b40232/
+| GitHub - https://github.com/Juanagudelo9007
+| juanagudelo.dev@gmail.com

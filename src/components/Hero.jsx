@@ -8,9 +8,10 @@ const Hero = () => {
     <div className=" h-full mt-14 p-4" id="about">
       <div className="flex  flex-col items-center  justify-center text-white p-4 md:p-6">
         <div className="relative flex flex-col  items-center mb-5">
-          <span className="absolute text-[#F0F0F0] text-[9px] md:text-[10px] -top-4 md:right-0 md:text-[#f6f3f3] font-light tracking-wider underline cursor-pointer hover:scale-125 md:no-underline hover:text-white hover:font-bold transition-all duration-300 underline-offset-2 ">
+          <span className="absolute -top-4 right-0 text-[#F0F0F0] text-[9px] md:text-[10px] font-light tracking-wider underline cursor-pointer hover:scale-125 hover:text-white hover:font-bold transition-all duration-500 underline-offset-2 ">
             Juan Agudelo
           </span>
+
           <h2 className="text-2xl md:text-3xl tracking-wider font-bold text-[#D9D9D9]">
             <span className="mr-2">A</span> Junior web-Developer
           </h2>
