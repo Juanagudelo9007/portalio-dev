@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @import "@fontsource-variable/onest";
 @import "@fontsource-variable/oswald";
+@import "@fontsource-variable/montserrat";
 
 body {
-  font-family: "Oswald Variable", sans-serif;
+  font-family: "Montserrat Variable", sans-serif;
 }

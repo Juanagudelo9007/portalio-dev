@@ -14,19 +14,27 @@ import { FaLink } from "react-icons/fa6";
     class="flex flex-col justify-center items-center w-full h-full gap-6 text-white p-4"
     id="container"
   >
+    <h1 class="text-xl md:text-2xl font-bold tracking-wide">My Projects</h1>
     <div
-      class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2 md:overflow-hidden"
+      class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2"
       id="card-1"
     >
-      <div class="h-52 md:h-64 w-full" id="img">
+      <div class="max-h w-full" id="img">
         <img
           src={"/public/chat-app.png"}
           alt="landing-burger-react"
-          class="h-full w-full object-contain"
+          class="h-full w-full shadow-[5px_19px_9px_-2px_rgba(0,0,0,0.3)]"
         />
       </div>
-      <div class="flex flex-col gap-3 justify-center" id="card-content">
-        <h1 class="text-sm md:text-lg">Chat App</h1>
+      <div
+        class="relative flex flex-col gap-3 justify-center mt-4"
+        id="card-content"
+      >
+        <h1
+          class="relative text-sm md:text-lg text-[#bbbcbe] font-bold tracking-wide after:content-[] after:absolute after:left-0 after:bottom-0 after:w-0 md:hover:after:w-[19%] after:h-0.5 after:bg-[#b4b4b4] after:transition-all after:duration-300 underline decoration-1 decoration-[#b4b4b4] underline-offset-4 md:no-underline cursor-pointer"
+        >
+          Chat App
+        </h1>
         <p class="text-xs md:text-sm">
           Real-time chat application supporting authentication, live messaging,
           adding users, and deleting users.
@@ -56,18 +64,22 @@ import { FaLink } from "react-icons/fa6";
       </div>
     </div>
     <div
-      class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2 md:overflow-hidden"
+      class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2 mt-3"
       id="card-2"
     >
-      <div class="h-52 md:h-64 w-full" id="img">
+      <div class="max-h w-full" id="img">
         <img
           src={"/public/netflix-clone.png"}
           alt="landing-burger-react"
-          class="h-full w-full object-contain"
+          class="w-full h-full object-contain shadow-[3px_12px_9px_-2px_rgba(0,0,0,0.4)]"
         />
       </div>
-      <div class="flex flex-col gap-3 justify-center" id="card-content">
-        <h1 class="text-sm md:text-lg">Netflix Clone</h1>
+      <div class="flex flex-col gap-3 justify-center mt-3" id="card-content">
+        <h1
+          class="relative text-sm md:text-lg text-[#bbbcbe] after:content-[] font-bold tracking-wide after:absolute after:left-0 after:bottom-0 after:w-0 md:hover:after:w-[26%] after:h-0.5 after:bg-[#b4b4b4] after:transition-all after:duration-300 underline decoration-1 decoration-[#b4b4b4] underline-offset-4 md:no-underline cursor-pointer"
+        >
+          Netflix Clone
+        </h1>
         <p class="text-xs md:text-sm">
           Netflix clone with authentication. Users have their own sections to
           add shows and movies to “watch later” and “favorites.” All user
@@ -100,16 +112,20 @@ import { FaLink } from "react-icons/fa6";
       class="h-96 max-w-[400px] md:max-w-[500px] flex flex-col justify-center items-center md:gap-4 p-2"
       id="card-3"
     >
-      <div class="h-52 md:h-64 w-full" id="img">
+      <div class="max-h w-full" id="img">
         <img
           src={"/public/landing-burger-react.png"}
           alt="landing-burger-react"
-          class="h-full w-full object-contain"
+          class="w-full h-full object-contain shadow-[3px_14px_9px_-2px_rgba(0,0,0,0.3)]"
         />
       </div>
-      <div class="flex flex-col gap-2 justify-center" id="card-content">
-        <h1 class="text-sm md:text-lg">Lading Burger Place</h1>
-        <p class="text-xs md:text-sm">
+      <div class="flex flex-col gap-2 justify-center mt-3" id="card-content">
+        <h1
+          class="relative text-sm md:text-lg text-[#bbbcbe] after:content-[] font-bold tracking-wide after:absolute after:left-0 after:bottom-0 after:w-0 md:hover:after:w-[41%] after:h-0.5 after:bg-[#b4b4b4] after:transition-all after:duration-300 underline decoration-1 decoration-[#b4b4b4] underline-offset-4 md:no-underline cursor-pointer"
+        >
+          Lading Burger Place
+        </h1>
+        <p class="text-xs md:text-sm text-white">
           Landing page for a burger store where users can view the menu and fill
           out a form to place an order.
         </p>
