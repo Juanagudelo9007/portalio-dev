@@ -61,12 +61,12 @@ const Hero = () => {
           className="flex justify-center items-center gap-2 mt-4"
           id="tech-stack"
         >
-          <img src={"/html-logo.png"} alt="html-logo" className="w-8 h-8 " />
-          <img src={"/css-logo.png"} alt="css-logo" className="w-8 h-8" />
-          <img src={"/js-log.png"} alt="js-logo" className="w-8 h-8" />
-          <img src={"/react-logo.png"} alt="react-logo" className="w-8 h-8" />
+          <img src="/html-logo.png" alt="html-logo" className="w-8 h-8 " />
+          <img src="/css-logo.png" alt="css-logo" className="w-8 h-8" />
+          <img src="/js-log.png" alt="js-logo" className="w-8 h-8" />
+          <img src="/react-logo.png" alt="react-logo" className="w-8 h-8" />
           <img
-            src={"/tailwind-logo.png"}
+            src="/tailwind-logo.png"
             alt="tailwindcss-logo"
             className="w-7 h-5"
           />
