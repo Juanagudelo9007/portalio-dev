@@ -14,14 +14,12 @@ const Hero = () => {
           </span>
           <div className="w-full flex justify-center items-center gap-2 ">
             <span className="text-zinc-400">
-              <FaCode size={22} />
+              <FaCode size={30} />
             </span>
             <h2 className="text-xl md:text-3xl tracking-wider font-bold text-[#D9D9D9]">
               <span className="mr-2">A</span> Junior web-Developer
             </h2>
-            <span className="text-zinc-400">
-              <FaCode size={22} />
-            </span>
+           
           </div>
         </div>
        
