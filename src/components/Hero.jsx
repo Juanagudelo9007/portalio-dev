@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaCode } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -11,15 +12,19 @@ const Hero = () => {
           <span className="absolute -top-4 right-0 text-[#F0F0F0] text-[9px] md:text-[10px] font-light tracking-wider underline cursor-pointer hover:scale-125 hover:text-white hover:font-bold transition-all duration-500 underline-offset-2 ">
             Juan Agudelo
           </span>
-
-          <h2 className="text-2xl md:text-3xl tracking-wider font-bold text-[#D9D9D9]">
-            <span className="mr-2">A</span> Junior web-Developer
-          </h2>
+          <div className="w-full flex justify-center items-center gap-2 ">
+            <span className="text-zinc-400">
+              <FaCode size={22} />
+            </span>
+            <h2 className="text-xl md:text-3xl tracking-wider font-bold text-[#D9D9D9]">
+              <span className="mr-2">A</span> Junior web-Developer
+            </h2>
+            <span className="text-zinc-400">
+              <FaCode size={22} />
+            </span>
+          </div>
         </div>
-        <div className="w-full text-end">
-          <span className="capitalize text-[8px]">start</span>
-        </div>
-
+       
         <p className="parr text-justify md:text-center text-sm  md:text-[17px] leading-relaxed  text-[#C2C2C2]">
           Self-taught web developer creating modern websites while expanding my
           skills. I’ve worked with HTML, CSS, JavaScript, React, tailwindcss and
